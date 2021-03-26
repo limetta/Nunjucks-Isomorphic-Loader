@@ -1,25 +1,13 @@
 {
-  "name": "nunjucks-isomorphic-loader",
+  "name": "nunjucks-isomorphic-loader-custom",
   "version": "2.0.2",
   "description": "A nunjucks loader for webpack, supporting both javascript template usage and static compilation through HtmlWebpackPlugin.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sudocat/nunjucks-isomorphic-loader.git"
+    "url": "git://github.com/limetta/nunjucks-isomorphic-loader.git"
   },
-  "keywords": [
-    "webpack",
-    "nunjucks",
-    "nunj",
-    "loader",
-    "template"
-  ],
-  "author": "Robin Neal <robinneal429@gmail.com> (http://robinneal.co.uk)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/sudocat/nunjucks-isomorphic-loader/issues"
-  },
-  "homepage": "https://github.com/sudocat/nunjucks-isomorphic-loader",
   "dependencies": {
     "loader-utils": "^1.1.0",
     "nunjucks-loader": "^2.4.5"
