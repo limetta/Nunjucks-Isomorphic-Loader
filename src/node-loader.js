@@ -55,7 +55,7 @@ module.exports = function(source) {
 
 	var env = new nunjucks.Environment(new fsLoader(paths, this.addDependency));
 
-	var name = path.relative(rootPath, this.resourcePath);
+	var name = path.relative(paths[0], this.resourcePath).replace(/\\/g,"/");
 
 	this.addContextDependency(rootPath);
 
