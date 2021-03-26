@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/limetta/nunjucks-isomorphic-loader.git"
+    "url": "git://github.com/limetta/nunjucks-isomorphic-loader-custom.git"
   },
   "license": "MIT",
   "dependencies": {
